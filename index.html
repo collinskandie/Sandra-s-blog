@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Home</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="css/stuck.css">
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/form.css">
+		<link rel="stylesheet" href="css/touchTouch.css">
+		<link rel="stylesheet" href="css/camera.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-migrate-1.1.1.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="js/jquery.equalheights.js"></script>
+		<script src="js/jquery.mobilemenu.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/tmStickUp.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/touchTouch.jquery.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/sForm.js"></script>
+		<script src="js/camera.js"></script>
+		
+		<script src="js/jquery.mobile.customized.min.js"></script>
+		<script>
+		$(document).ready(function(){
+			jQuery('#camera_wrap').camera({
+				loader: false,
+				pagination: false ,
+				minHeight: '200',
+				thumbnails: false,
+				height: '39,0625%',
+				caption: true,
+				navigation: true,
+				fx: 'mosaic'
+			});
+			var owl = $("#owl");
+			owl.owlCarousel({
+				items : 7, //10 items above 1000px browser width
+				itemsDesktop : [995,5], //5 items between 1000px and 901px
+				itemsDesktopSmall : [767, 3], // betweem 900px and 601px
+				itemsTablet: [700, 3], //2 items between 600 and 0
+				itemsMobile : [479, 2], // itemsMobile disabled - inherit from itemsTablet option
+				navigation : true,
+			});
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			$('#stuck_container').tmStickUp({});
+			$('.gallery a.gal_item').touchTouch();
+		});
+		</script>
+		
+	</head>
+	<body class="page1" id="top">
+		<header>
+			<div id="stuck_container">
+				<div class="container">
+					<div class="row">
+						<div class="grid_12">
+							<h1>
+								<a href="index.html">
+									<img src="images/logo.jpeg" alt="Your Happy Family">
+								</a>
+							</h1>
+							<div class="menu_block">
+								<nav class="horizontal-nav full-width horizontalNav-notprocessed">
+									<ul class="sf-menu">
+										<li class="current"><a href="index.html">Home</a></li>
+										<li><a href="portfolio.html">Portfolio</a></li>
+										<li><a href="resume.html">Resume</a></li>
+										<li><a href="blog.html">Blog</a></li>
+										<li><a href="contact.html">Contacts</a></li>
+									</ul>
+								</nav>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="main">
+			<div class="slider_wrapper">
+				<div id="camera_wrap" class="">
+					<div data-src="images/slide.jpg">
+						<div class="caption fadeIn">
+							<div class="title">Love</div>
+							<p>Photography is the story I fail to put into words</p>
+							<p>When words become unclear, I shall focus with photographs. When images become inadequate, I shall be content with silence.</p>
+							<a href="contact.html">Learn More</a>
+						</div>
+					</div>
+					<div data-src="images/slide1.jpg">
+						<div class="caption fadeIn">
+							<div class="title">Art</div>
+							<p>“In photography there is a reality so subtle that it becomes more real than reality.”</p>
+								<p><strong>— Alfred Stieglitz</strong></p>
+							<a href="#">Learn More</a>
+						</div>
+					</div>
+					<div data-src="images/slide2.jpg">
+						<div class="caption fadeIn">
+							<div class="title">In Motion</div>
+							<p>“Taking an image, freezing a moment, reveals how rich reality truly is.”</p>
+							<p><strong>— Anonymous</strong></p>
+							<a href="#">Learn More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="block1">
+				<div class="container">
+					<div class="row">
+						<div class="grid_12">
+							<div class="rel">
+								<p font-family="Times New Roman" font-size= "14px">
+								Hi! I’m Sandra Elisepa. Photography is a passion of mine. Let me use my talent & professionalism to capture the precious moments of your life.
+								</p>
+								<a href="#" class="btn bt__1">Hire Me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="content">
+					<div class="row">
+						<div class="grid_12">
+							<h2>Portfolio</h2>
+							<div class="gallery">
+								<div class="row">
+									<div class="grid_4">
+										<a href="images/big1.jpg" class="gal_item">
+											<img src="images/page1_img1.jpg" alt="">
+											<div class="gal_caption">People</div>
+											<span class="gal_magnify"></span>
+										</a>
+									</div>
+									<div class="grid_4">
+										<a href="images/big2.jpg" class="gal_item">
+											<img src="images/page1_img2.jpg" alt="">
+											<div class="gal_caption">Fashion</div>
+											<span class="gal_magnify"></span>
+										</a>
+									</div>
+									<div class="grid_4">
+										<a href="images/big3.jpg" class="gal_item">
+											<img src="images/page1_img3.jpg" alt="">
+											<div class="gal_caption">Wedding</div>
+											<span class="gal_magnify"></span>
+										</a>
+									</div>
+									<div class="grid_4">
+										<a href="images/big4.jpg" class="gal_item">
+											<img src="images/page1_img4.jpg" alt="">
+											<div class="gal_caption">Interior</div>
+											<span class="gal_magnify"></span>
+										</a>
+									</div>
+									<div class="grid_4">
+										<a href="images/big5.jpg" class="gal_item">
+											<img src="images/page1_img5.jpg" alt="">
+											<div class="gal_caption">Animals</div>
+											<span class="gal_magnify"></span>
+										</a>
+									</div>
+									<div class="grid_4">
+										<a href="images/big6.jpg" class="gal_item">
+											<img src="images/page1_img6.jpg" alt="">
+											<div class="gal_caption">Nature</div>
+											<span class="gal_magnify"></span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+						<div class="grid_4">
+							<h3 class="mb__0">Equipment</h3>
+							<div class="block2">
+								<div class="block2_title color1">Camera</div>
+									<ul class="list">
+									<li>Close up</li>
+									<li>Medium shot</li>
+									<li>Long shot</li>
+								</ul>
+							</div>
+							<div class="block2">
+								<div class="block2_title color1">Lighting Software</div>
+								<ul class="list">
+									<li>Adobe ligth room</li>
+									<li>Adobe photoshop</li>									
+								</ul>
+							</div>
+						</div>
+						<div class="grid_4">
+							<h3>About me</h3>
+							<p>Need more information about this Sandra? Follow me on </p>
+							<ul>
+								<li><a href="#" class="fa fa-twitter"></a>Twitter</li>
+								<li><a href="#" class="fa fa-facebook"></a>Facebook</li>
+								<li><a href="https://www.instagram.com/__.k.e.i.s.y._/" class="fa fa-instagram">Instagram</a></li>
+							</ul>							
+						</div>
+						<div class="grid_4">
+							<h3>Publications</h3>
+							<ul class="list1">
+								<li>
+									<div class="list_count">-></div>
+									<div class="extra_wrapper">
+										<div class="list1_title color2"><a href="#">Check out my work on instagram
+										<a href="https://www.instagram.com/__.k.e.i.s.y._/" class="color1 td_und">More</a>
+									</div>
+								</li>								
+							</ul>
+						</div>
+						<div class="clear"></div>
+						<div class="grid_12">
+							<h3 class="head1">Multimedia</h3>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div id="owl">
+					<div class="item"><img src="images/car_img1.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img2.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img3.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img4.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img5.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img6.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img7.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img1.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img2.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img3.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img4.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img5.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img6.jpg" alt=""></div>
+					<div class="item"><img src="images/car_img7.jpg" alt=""></div>
+				</div>
+			</section>
+<!--==============================Bot_block=================================-->
+			<section class="bottom_block">
+				<div class="container">
+					<div class="row">
+						<div class="grid_5">
+							<div class="bot_title">
+								<span class="fa fa-envelope-o"></span>Subscribe to My Newsletter
+							</div>
+						</div>
+						<div class="grid_7">
+							<form id="newsletter">
+								<div class="row">
+									<div class="grid_4">
+										<div class="rel">
+											<div class="success">Your subscrsibe request has been sent!</div>
+											<label class="email">
+												<input type="email" value="Your Email Address Here" >
+												<span class="error">*This is not a valid email address.</span>
+												<span class="clear"></span>
+											</label>
+										</div>
+									</div>
+									<div class="grid_3">
+										<a href="https://www.instagram.com/__.k.e.i.s.y._/" class="btn bt__2" data-type="submit">Submit</a>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+<!--==============================footer=================================-->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="grid_12">
+						<div class="footer_socials">
+							<a href="#" class="fa fa-twitter"></a>
+							<a href="#" class="fa fa-facebook"></a>
+							<a href="#" class="fa fa-google-plus"></a>
+							<a href="https://www.instagram.com/__.k.e.i.s.y._/" class="fa fa-instagram"></a>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
